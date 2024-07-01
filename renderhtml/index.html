@@ -9,8 +9,11 @@
       html, body, textarea {
           width: 100%;
           height: 100vh;
-          padding: 0;
-          margin: 0;
+          padding: 3px;
+          margin: 3px;
+          font-family: sans-serif;
+          /* color: white; */
+          color: (--grist-theme-text);
       }
       #error {
           display: none;
@@ -18,6 +21,25 @@
           color: white;
           padding: 20px;
           text-align: center;
+      }
+
+      a {
+          color: #1da270;
+      }
+
+      table {
+          border: 1px solid #666;
+          border-collapse: collapse;
+      }
+      td, th {
+          padding: 7px;
+          border: 1px solid #666;
+      }
+      img {
+          border: 1;
+          margin: 7px;
+          padding: 2px;
+          align-self: center;
       }
     </style>
   </head>
